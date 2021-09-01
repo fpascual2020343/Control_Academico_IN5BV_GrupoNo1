@@ -5,7 +5,7 @@
  */
 
 package com.grupono1.models.domain;
-import java.sql.Date;
+import java.sql.Timestamp;
 /**
  *
  * @author Franshesco Emmanuel Pascual Ramires
@@ -20,12 +20,12 @@ public class Asignacion_Alumno {
     private String asignacion_id;
     private String carne_alumno;
     private int id_curso;
-    private Date fecha_asignacion;
+    private Timestamp fecha_asignacion;
 
     public Asignacion_Alumno() {
     }
 
-    public Asignacion_Alumno(String asignacion_id, String carne_alumno, int id_curso, Date fecha_asignacion) {
+    public Asignacion_Alumno(String asignacion_id, String carne_alumno, int id_curso, Timestamp fecha_asignacion) {
         this.asignacion_id = asignacion_id;
         this.carne_alumno = carne_alumno;
         this.id_curso = id_curso;
@@ -56,11 +56,11 @@ public class Asignacion_Alumno {
         this.id_curso = id_curso;
     }
 
-    public Date getFecha_asignacion() {
+    public Timestamp getFecha_asignacion() {
         return fecha_asignacion;
     }
 
-    public void setFecha_asignacion(Date fecha_asignacion) {
+    public void setFecha_asignacion(Timestamp fecha_asignacion) {
         this.fecha_asignacion = fecha_asignacion;
     }
 

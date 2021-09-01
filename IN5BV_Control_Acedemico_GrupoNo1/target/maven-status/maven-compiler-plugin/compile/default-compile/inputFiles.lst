@@ -1,6 +1,16 @@
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\controller\ServletEstudiante.java
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\system\Principal.java
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\db\Conexion.java
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\models\domain\Estudiante.java
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\models\idao\IEstudianteDao.java
-D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Tareas\Ejercicios en clase\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\franshescopascual\models\dao\EstudianteDaoImpl.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\ISalonDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Alumno.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\ICarreraTecnicaDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Asignacion_Alumno.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\system\Principal.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\IHorarioDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\IAlumnoDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\IAsignacionAlumnoDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\db\Conexion.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Horario.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Instructor.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Salon.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\IInstructorDao.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\CarreraTecnica.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\domain\Curso.java
+D:\LEGION\ESCRITORIO\5to. Kinal\Cuarto Bimestre\Informatica\Taller\Proyecto Final\IN5BV_Control_Acedemico_GrupoNo1\src\main\java\com\grupono1\models\idao\ICursoDao.java
