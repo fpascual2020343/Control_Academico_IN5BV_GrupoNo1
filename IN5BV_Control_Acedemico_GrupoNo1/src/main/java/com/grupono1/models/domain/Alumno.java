@@ -32,6 +32,18 @@ public class Alumno {
         this.email = email;
     }
 
+    public Alumno(String apellidos, String nombres, String email) {
+        this.apellidos = apellidos;
+        this.nombres = nombres;
+        this.email = email;
+    }
+
+    public Alumno(String carne) {
+        this.carne = carne;
+    }
+    
+    
+
     public String getCarne() {
         return carne;
     }

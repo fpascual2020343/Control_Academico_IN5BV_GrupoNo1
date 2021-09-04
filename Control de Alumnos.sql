@@ -63,7 +63,7 @@ CREATE TABLE Curso(
 		FOREIGN KEY (id_instructor) REFERENCES Instructor (instructor_id)
 );
 DROP TABLE IF EXISTS Asignacion_Alumno;
-CREATE TABLE Asignacion_Alummo(
+CREATE TABLE Asignacion_Alumno(
 	asignacion_id VARCHAR(45) NOT NULL,
     carne_alumno VARCHAR(16) NOT NULL,
     id_curso INT NOT NULL,
@@ -74,3 +74,39 @@ CREATE TABLE Asignacion_Alummo(
 	CONSTRAINT FK_carne_alummno_Curso
 		FOREIGN KEY (id_curso) REFERENCES Curso (curso_id)
 );
+
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('barahona', 'pablo', 'segunda caller 7-41', '85296375');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('lopez ', 'sergio', 'primera avenida  ', '89562374');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('perez ', 'luis', 'cuarta calle "a" ', '78945612');
+
+
+INSERT INTO Horario (horario_final, horario_inicio)VALUE("15:00:00","7:00:00");
+INSERT INTO Salon (capacidad, descripcion, nombre_salon) VALUES(45, "Salon de Matematicas", "C25");
+INSERT INTO Carrera_Tecnica (codigo_carrera, nombre) VALUE("IN5BV","Informatica");
+INSERT INTO Instructor (apellidos, nombres, direccion, telefono) VALUES("Pascual Ramirez", "Franshesco Pascual", "Diagonal 14, 15-04 JArdines de la asuncion zona 5", "30964851");
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('barahona', 'pablo', 'segunda caller 7-41', '85296375');
+INSERT INTO  Instructor(apellidos, nombres, direccion, telefono) 
+VALUES ('lopez ', 'sergio', 'primera avenida  ', '89562374');
+INSERT INTO Curso (ciclo, cupo_maximo, cupo_minimo, descripcion, id_horario, id_salon,id_codigo_carrera, id_instructor) VALUES(1, 35, 10, "Matematica Avanzada",1,1,"IN5BV",1);
+
+INSERT INTO Alumno (carne, apellidos, nombres, email) VALUE("2020343", "Lancerio Ramirez", "Luis Miguel", "llancerio@gmail.com");
+
+SELECT instructor_id,apellidos,nombres,direccion,telefono FROM Instructor;
+SELECT asignacion_id, carne_alumno, id_curso,fecha_asignacion FROM Asignacion_Alumno;
+
+INSERT INTO Asignacion_Alumno(asignacion_id, carne_alumno, id_curso, fecha_asignacion) VALUE("B5C0E","2020343", 1, "2021-09-03 15:20:15");

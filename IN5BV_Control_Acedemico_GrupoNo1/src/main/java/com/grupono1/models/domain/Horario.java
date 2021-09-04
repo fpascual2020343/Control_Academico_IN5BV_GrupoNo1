@@ -31,6 +31,17 @@ public class Horario {
         this.horario_inicio = horario_inicio;
     }
 
+    public Horario(Time horario_final, Time horario_inicio) {
+        this.horario_final = horario_final;
+        this.horario_inicio = horario_inicio;
+    }
+
+    public Horario(int horario_id) {
+        this.horario_id = horario_id;
+    }
+
+    
+    
     public int getHorario_id() {
         return horario_id;
     }

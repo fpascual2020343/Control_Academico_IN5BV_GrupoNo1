@@ -34,6 +34,19 @@ public class Instructor {
         this.telefono = telefono;
     }
 
+    public Instructor(String apellidos, String nombres, String direccion, String telefono) {
+        this.apellidos = apellidos;
+        this.nombres = nombres;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+
+    public Instructor(int instructor_id) {
+        this.instructor_id = instructor_id;
+    }
+    
+    
+
     public int getInstructor_id() {
         return instructor_id;
     }

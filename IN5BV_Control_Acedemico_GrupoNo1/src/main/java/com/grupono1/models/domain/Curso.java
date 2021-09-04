@@ -24,13 +24,29 @@ public class Curso {
     private String descripcion;
     private int id_horario;
     private int id_salon;
-    private int id_codigo_carrera;
+    private String id_codigo_carrera;
     private int id_instructor;
 
     public Curso() {
     }
 
-    public Curso(int curso_id, int ciclo, int cupo_maximo, int cupo_minimo, String descripcion, int id_horario, int id_salon, int id_codigo_carrera, int id_instructor) {
+    public Curso(int curso_id) {
+        this.curso_id = curso_id;
+    }
+
+    public Curso(int ciclo, int cupo_maximo, int cupo_minimo, String descripcion, int id_horario, int id_salon, String id_codigo_carrera, int id_instructor) {
+        this.ciclo = ciclo;
+        this.cupo_maximo = cupo_maximo;
+        this.cupo_minimo = cupo_minimo;
+        this.descripcion = descripcion;
+        this.id_horario = id_horario;
+        this.id_salon = id_salon;
+        this.id_codigo_carrera = id_codigo_carrera;
+        this.id_instructor = id_instructor;
+    }
+    
+
+    public Curso(int curso_id, int ciclo, int cupo_maximo, int cupo_minimo, String descripcion, int id_horario, int id_salon, String id_codigo_carrera, int id_instructor) {
         this.curso_id = curso_id;
         this.ciclo = ciclo;
         this.cupo_maximo = cupo_maximo;
@@ -98,11 +114,11 @@ public class Curso {
         this.id_salon = id_salon;
     }
 
-    public int getId_codigo_carrera() {
+    public String getId_codigo_carrera() {
         return id_codigo_carrera;
     }
 
-    public void setId_codigo_carrera(int id_codigo_carrera) {
+    public void setId_codigo_carrera(String id_codigo_carrera) {
         this.id_codigo_carrera = id_codigo_carrera;
     }
 
@@ -118,5 +134,4 @@ public class Curso {
     public String toString() {
         return "Curso{" + "curso_id=" + curso_id + ", ciclo=" + ciclo + ", cupo_maximo=" + cupo_maximo + ", cupo_minimo=" + cupo_minimo + ", descripcion=" + descripcion + ", id_horario=" + id_horario + ", id_salon=" + id_salon + ", id_codigo_carrera=" + id_codigo_carrera + ", id_instructor=" + id_instructor + '}';
     }  
-
 }

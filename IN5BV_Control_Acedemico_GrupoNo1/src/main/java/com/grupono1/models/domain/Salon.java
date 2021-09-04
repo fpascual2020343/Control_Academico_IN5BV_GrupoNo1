@@ -32,6 +32,18 @@ public class Salon {
         this.nombre_salon = nombre_salon;
     }
 
+    public Salon(int capacidad, String descripcion, String nombre_salon) {
+        this.capacidad = capacidad;
+        this.descripcion = descripcion;
+        this.nombre_salon = nombre_salon;
+    }
+
+    public Salon(int salon_id) {
+        this.salon_id = salon_id;
+    }
+    
+    
+
     public int getSalon_id() {
         return salon_id;
     }
